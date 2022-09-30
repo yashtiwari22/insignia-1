@@ -25,7 +25,7 @@ function Testimonials() {
   ]);
 
   return (
-    <div className="container-medium">
+    <div id="testimonials" className="container-medium">
       <div className="carousel2-wrapper">
         <h1 className="heading">Testimonials</h1>
         <Carousel breakPoints={breakPoints}>

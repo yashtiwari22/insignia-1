@@ -3,7 +3,7 @@ import "./About.css";
 import security from "../../image/security.svg";
 function About() {
   return (
-    <div className="container-medium">
+    <div id="about" className="container-medium">
       <div className="about2">
         <div className="left3">
           <img src={security} alt="image" style={{ width: "300px" }} />

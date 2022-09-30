@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll'
 import logo from "../../image/logo.svg";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import "./Header.css";
@@ -12,10 +13,10 @@ function Header() {
         </div>
         <div className="right">
           <ul className="pages">
-            <li className="about">About</li>
-            <li style={{ color: "#FFFFFF" }}>Help</li>
-            <li style={{ color: "#FFFFFF" }}>Features</li>
-            <li style={{ color: "#FFFFFF" }}>Signup</li>
+            <li className="about" style={{cursor:"pointer"}}><Link activeClass="active" to="about" spy={true} smooth={true} offset={-30} duration={500}>About</Link></li>
+            <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="testimonials" spy={true} smooth={true} offset={200} duration={500}>Testimonials</Link></li>
+            <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="features" spy={true} smooth={true} offset={50} duration={500}>Features</Link></li>
+            <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="signup" spy={true} smooth={true} offset={50} duration={500}>SignUp</Link></li>
             <li className="requestDemo">
               <h2>Request Demo</h2>
               <ArrowForwardIcon style={{ color: "#9C69E2" }} />

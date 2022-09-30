@@ -33,7 +33,7 @@ function Features() {
   ]);
 
   return (
-    <div className="container-medium">
+    <div id="features" className="container-medium">
       <div className="carousel-wrapper">
         <div className="heading">Features</div>
         <Carousel breakPoints={breakPoints}>
