@@ -16,7 +16,7 @@ function Header() {
             <li className="about" style={{cursor:"pointer"}}><Link activeClass="active" to="about" spy={true} smooth={true} offset={-30} duration={500}>About</Link></li>
             <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="testimonials" spy={true} smooth={true} offset={200} duration={500}>Testimonials</Link></li>
             <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="features" spy={true} smooth={true} offset={50} duration={500}>Features</Link></li>
-            <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="signup" spy={true} smooth={true} offset={50} duration={500}>SignUp</Link></li>
+            <li style={{ color: "#FFFFFF" ,cursor:"pointer"}}><Link activeClass="active" to="download" spy={true} smooth={true} offset={-20} duration={500}>Downloads</Link></li>
             <li className="requestDemo">
               <h2>Request Demo</h2>
               <ArrowForwardIcon style={{ color: "#9C69E2" }} />

@@ -3,7 +3,7 @@ import "./Download.css";
 import phone from "../../image/phone.svg";
 function Download() {
   return (
-    <div className="container-medium">
+    <div id="download" className="container-medium">
       <div className="download">
         <div className="left4">
           <h1 className="top3">Download Our App</h1>
